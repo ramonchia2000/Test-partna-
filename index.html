@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partna Platform</title>
+    <script defer src="app.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        input, button { margin: 10px; padding: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Partna</h1>
+    
+    <h3>Register User</h3>
+    <input type="text" id="name" placeholder="Name">
+    <input type="email" id="email" placeholder="Email">
+    <button onclick="registerUser()">Register</button>
+    <p id="registerResult"></p>
+
+    <h3>Create Partner Draw</h3>
+    <input type="text" id="drawName" placeholder="Draw Name">
+    <input type="number" id="contribution" placeholder="Contribution Amount">
+    <button onclick="createDraw()">Create Draw</button>
+    <p id="drawResult"></p>
+
+    <h3>Simulated Payment</h3>
+    <input type="text" id="userId" placeholder="User ID">
+    <input type="text" id="drawId" placeholder="Draw ID">
+    <input type="number" id="amount" placeholder="Amount">
+    <button onclick="makePayment()">Make Payment</button>
+    <p id="paymentResult"></p>
+</body>
+</html>
