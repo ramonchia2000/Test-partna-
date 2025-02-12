@@ -1,4 +1,4 @@
-const backendUrl = "http://127.0.0.1:8000";  // Replace with your backend API URL
+const backendUrl = "https://test-partna-1.onrender.com";  // Replace with your backend API URL
 
 async function registerUser() {
     const name = document.getElementById('name').value;
